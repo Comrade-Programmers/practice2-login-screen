@@ -1,0 +1,103 @@
+body{
+    margin: 0px;
+}
+.main-body{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+
+}
+
+.left-side{
+    background-color: white;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-image{
+
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.social-buttons button{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.or-line{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 350px;
+    color: gray;
+}
+
+.or-text{
+    margin: 0px 5px;
+}
+
+.or-line hr{
+    flex: 1;
+}
+
+.input-wrapper{
+    border-radius: 20px;
+    background-color: #EDF5F3;
+    display: flex;
+    margin-top: 15px;
+    min-width: 350px;
+}
+
+.input-wrapper input{
+    flex: 1;
+    background: transparent;
+    border: none;
+    padding: 13px 20px;
+}
+
+.signin-button{
+    border: none;
+    background: #39B397;
+    color: white;
+    padding: 12px;
+    min-width: 160px;
+    border-radius: 20px;
+    margin-top: 25px;
+}
+
+.right-side{
+    background-color: #39B19B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.right-side h1{
+    color: white;
+}
+
+.right-side .signup-desc{
+    color: white;
+    text-align: center;
+}
+
+.signup-button{
+    border: none;
+    background: white;
+    padding: 12px;
+    min-width: 160px;
+    border-radius: 20px;
+    margin-top: 25px;
+}
